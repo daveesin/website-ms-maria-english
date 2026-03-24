@@ -1,7 +1,5 @@
 # 🚀 Ms. Maria Go! - Landing Page
 
-![Acesso ao projeto](https://ms-maria-english.web.app)
-
 Uma Landing Page de alta conversão desenvolvida para a **Ms. Maria**, professora de inglês especializada em adultos e crianças. O projeto foca em autoridade, clareza metodológica e conversão direta via WhatsApp.
 
 ## 🎨 Identidade Visual & Proposta
@@ -30,3 +28,10 @@ Para manter a privacidade da cliente, este repositório:
 - ✅ **Contém:** Toda a lógica de componentes, estrutura de layout e configurações de estilo.
 
 ---
+
+🌐 Deploy
+O projeto está publicado e pode ser visualizado em (ainda será atrelado um novo domínio):
+[👉 Ms. Maria Go!](https://ms-maria-english.web.app)
+
+---
+Desenvolvido com ❤️ por Davi Silva Gonçalves!
