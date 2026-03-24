@@ -1,16 +1,32 @@
-# React + Vite
+# 🚀 Ms. Maria Go! - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Acesso ao projeto](https://ms-maria-english.web.app)
 
-Currently, two official plugins are available:
+Uma Landing Page de alta conversão desenvolvida para a **Ms. Maria**, professora de inglês especializada em adultos e crianças. O projeto foca em autoridade, clareza metodológica e conversão direta via WhatsApp.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎨 Identidade Visual & Proposta
+O design foi construído sobre uma paleta **Premium Dark**, utilizando o contraste entre o azul profundo e o magenta para transmitir modernidade e energia.
 
-## React Compiler
+- **Cores Principais:** `#0a0a1a` (Background), `#bc1a4b` (Primary/Action).
+- **Tipografia:** Foco em legibilidade e hierarquia visual clara.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
+Este projeto foi construído utilizando o que há de mais moderno no ecossistema React:
 
-## Expanding the ESLint configuration
+- **React 18** + **Vite**: Para um desenvolvimento ultra-rápido e bundle otimizado.
+- **Tailwind CSS**: Estilização utilitária e responsiva.
+- **Heroicons**: Conjunto de ícones premium.
+- **Firebase Hosting**: Hospedagem segura com certificação SSL.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+- **Navegação Dinâmica:** Links de âncora suaves entre as seções.
+- **Proteção de Dados:** Ofuscação de link de WhatsApp via JavaScript para evitar bots de spam.
+- **Slider de Depoimentos:** Carrossel interativo com sistema de *Snap Scroll* nativo.
+- **Responsividade Total:** Adaptado para Smartphones, Tablets e Desktops.
+
+## 📂 Estrutura do Repositório
+Para manter a privacidade da cliente, este repositório:
+- ❌ **Não contém:** Fotos pessoais, materiais didáticos proprietários ou chaves de API.
+- ✅ **Contém:** Toda a lógica de componentes, estrutura de layout e configurações de estilo.
+
+---
