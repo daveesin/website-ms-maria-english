@@ -28,3 +28,6 @@ dist-ssr
 src/assets/*.jpeg
 src/assets/*.png
 src/assets/*.jpg
+
+# Firebase
+.firebase/
