@@ -11,7 +11,7 @@ function App() {
     const handleWhatsAppClick = () => {
     const ddd = "55";
     const prefixo = "31";
-    const numero = "988503867";
+    const numero = "982876410";
     const msg = encodeURIComponent("Olá! Gostaria de saber mais sobre suas aulas!");
     window.open(`https://wa.me/${ddd}${prefixo}${numero}?text=${msg}`, "_blank");
   };
