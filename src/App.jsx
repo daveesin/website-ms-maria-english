@@ -3,7 +3,8 @@ import './App.css'
 import { ChevronDoubleRightIcon, UserIcon, UserGroupIcon } from '@heroicons/react/24/outline'
 
 //Import de imagens:
-import logoImg from './assets/logo.png' 
+import logoImg from './assets/logo.png'
+import logoEscrita from './assets/logoEscrita.png'
 import professoraImg from './assets/fotoDuda.jpeg' 
 
 function App() {
@@ -53,7 +54,7 @@ function App() {
         
         {/* Lado Esquerdo: Texto */}
         <div className="flex-1 space-y-6 text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
+          <h1 className="text-5xl md:text-5xl font-extrabold leading-tight tracking-tight">
             Inglês Prático.<br />
             Para Quem Quer<br />
             <span className="text-[#bc1a4b]">Avançar.</span>
@@ -77,9 +78,9 @@ function App() {
           {/* Fundo sutil para destacar a logo */}
           <div className="absolute w-[120%] h-[120%] bg-[#bc1a4b]/5 rounded-full blur-3xl opacity-50"></div>
 
-          {/* Card Escuro para a Logo (Design "limpo" recuperado) */}
-          <div className="relative w-72 h-72 flex items-center justify-center p-12 bg-[#111122] rounded-3xl border border-white/10 shadow-inner">
-            <img src={logoImg} alt="Logo Cultural Bridge" className="max-w-full h-auto" />
+          {/* Card para a Logo */}
+          <div className="relative w-95 h-95 flex items-center justify-center p-12">
+            <img src={logoEscrita} alt="Logo Cultural Bridge" className="max-w-full h-auto" />
             
             {/* Pontinhos decorativos Adaptados */}
             <div className="absolute -bottom-5 -right-5 grid grid-cols-4 gap-1.5 opacity-40">
