@@ -24,8 +24,8 @@ function App() {
         <div className="flex justify-between items-center p-6 max-w-6xl mx-auto">
           {/* Logo em texto ou imagem */}
           <div className="text-xl font-bold flex items-center gap-2">
-            <span className="border-l-4 border-[#bc1a4b] pl-2">MS. MARIA</span>
-            <span className="text-[#bc1a4b]">GO!</span>
+            <span className="border-l-4 border-[#bc1a4b] pl-2">CULTURAL BRIDGE</span>
+            <span className="text-[#bc1a4b]">INSTITUTE</span>
           </div>
           
           {/* Links de navegação */}
@@ -58,7 +58,7 @@ function App() {
             <span className="text-[#bc1a4b]">Avançar.</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-lg mx-auto md:mx-0">
-            Aulas online personalizadas com Ms. Maria. Foque no que importa e destrave sua conversação sem rodeios.
+            Aulas 100% personalizadas online e presencial. Foque no que importa e destrave sua conversação sem rodeios.
           </p>
           <div className="flex justify-center md:justify-start gap-4 pt-4">
             <button 
