@@ -160,9 +160,9 @@ function App() {
                 {">>>"}
               </span>
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">Certificação em Ensino de Inglês como Segunda Língua (ESL)</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Conectividade</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Montgomery Community College (EUA)
+                  Criamos conexões reais entre alunos e o mundo. Levamos cultura, contexto e vida para dentro da sala, transformando o aprendizado em uma experiência que vai muito além do inglês.
                 </p>
               </div>
             </div>
@@ -173,10 +173,9 @@ function App() {
                 {">>>"}
               </span>
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">Experiência Internacional</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Inovação e Adaptabilidade</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  2 anos de imersão nos Estados Unidos, voltados ao estudo e desenvolvimento profissional.<br /><br />
-                  2 anos de formação voltada para o uso de metodologias inovadoras e aplicadas, ideias para o ambiente corporativo e para o ensino prático.
+                  O ensino evolui — e nós também. Buscamos constantemente novas formas de estruturar o aprendizado, adaptando cada estratégia às necessidades reais dos nossos alunos.
                 </p>
               </div>
             </div>
@@ -187,11 +186,22 @@ function App() {
                 {">>>"}
               </span>
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">Certificações em Cursos de Universidades Internacionais</h3>
+                <h3 className="text-xl font-bold text-white mb-2">Protagonismo do Aluno</h3>
                 <p className="text-gray-400 leading-relaxed">
-                  University of Glasgow<br />
-                  TheMuseum of Modern Art<br />
-                  University of California Irvine<br />
+                  Aqui, o centro é você. Respeitamos seu ritmo, seus objetivos e sua história, colocando o aluno como protagonista do próprio desenvolvimento.
+                </p>
+              </div>
+            </div>
+
+            {/* Item 4 */}
+            <div className="flex gap-4 group">
+              <span className="text-[#bc1a4b] font-bold text-2xl mt-1 shrink-0 transition-transform group-hover:translate-x-2 italic">
+                {">>>"}
+              </span>
+              <div>
+                <h3 className="text-xl font-bold text-white mb-2">Flexibilidade</h3>
+                <p className="text-gray-400 leading-relaxed">
+                  Sua rotina importa. Você tem liberdade para definir os horários das suas aulas semanalmente, aprendendo de forma leve e possível dentro da sua realidade.
                 </p>
               </div>
             </div>
