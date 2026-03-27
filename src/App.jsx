@@ -31,8 +31,8 @@ function App() {
           {/* Links de navegação */}
           <div className="flex items-center gap-6 text-sm text-gray-300">
             <a href="#hero" className="hover:text-[#bc1a4b] transition">Início</a>
-            <a href="#sobre" className="hover:text-[#bc1a4b] transition">Sobre Mim</a>
-            <a href="#metodo" className="hover:text-[#bc1a4b] transition">Neu Método</a>
+            <a href="#sobre" className="hover:text-[#bc1a4b] transition">Sobre Nós</a>
+            <a href="#pilares" className="hover:text-[#bc1a4b] transition">Pilares</a>
             <a href="#reviews" className="hover:text-[#bc1a4b] transition">Reviews</a>
             <button 
               onClick={handleWhatsAppClick}
@@ -47,7 +47,7 @@ function App() {
       {/* Margem superior para compensar a navbar fixa */}
       <div className="pt-24"></div>
 
-      {/* 2. HERO SECTION REFINADA COM LOGO */}
+      {/* 2. HERO SECTION COM LOGO */}
       <header id="hero" className="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-16 scroll-mt-24">
         
         {/* Lado Esquerdo: Texto (Frase Mais Objetiva e 'Go!') */}
@@ -133,7 +133,7 @@ function App() {
       </section>
 
       {/* 4. PILARES DA CULTURAL BRIDGE */}
-      <section id="experiencia" className="py-24 max-w-6xl mx-auto px-6 scroll-mt-24">
+      <section id="pilares" className="py-24 max-w-6xl mx-auto px-6 scroll-mt-24">
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#bc1a4b]/5 rounded-full blur-3xl -z-10"></div>
         <div className="flex flex-col md:flex-row gap-12 items-start">
           
@@ -210,95 +210,54 @@ function App() {
         </div>
       </section>
       
-      {/* 5. MÉTODO DE ENSINO */}
+      {/* 5. CULTURAL BRIDGE PARA CRIANÇAS */}
       <section id="metodo" className="bg-[#0c0c1f] py-24 border-t border-white/3 scroll-mt-24">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-extrabold">
-              Método de <span className="text-[#bc1a4b]">Ensino</span>
+              Cultural Bridge para <span className="text-[#bc1a4b]">Crianças</span>
             </h2>
-            <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-              Uma abordagem focada em resultados reais, desenhada para quem precisa de agilidade e confiança.
+            <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-2xl">
+              Aqui seu filho <span className="text-[#bc1a4b]">vive o idioma</span> desde o primeiro dia!
             </p>
           </div>
 
           {/* Grid de Cards de Cima */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
-            {/* Card 1: Foco no Aluno */}
+            {/* Card 1: Speaking Prático */}
             <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>
               <div className="w-12 h-12 bg-[#bc1a4b] rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#bc1a4b]/20">
-                <span className="text-2xl">🎯</span>
+                <span className="text-2xl">🗣️</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Foco no Aluno</h3>
+              <h3 className="text-xl font-bold mb-3">Speaking Prático</h3>
               <p className="text-gray-400 text-sm leading-relaxed">
-                <b>Personalizo</b> as aulas para atender às <b>necessidades e objetivos</b> específicos <b>de cada estudante,</b> respeitando seu ritmo de aprendizado.
+                Aulas focadas em <b>conversação</b> desde o primeiro dia, com materiais visuais e atividades lúdicas para estimular a comunicação natural e o interesse pelo idioma.
               </p>
             </div>
 
-            {/* Card 2: Praticidade */}
+            {/* Card 2: Material de Qualidade */}
             <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>
               <div className="w-12 h-12 bg-[#bc1a4b] rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#bc1a4b]/20">
-                <span className="text-2xl">💼</span>
+                <span className="text-2xl">📘</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Praticidade para adultos</h3>
+              <h3 className="text-xl font-bold mb-3">Material de Qualidade</h3>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Conversação e simulações do dia a dia.<br /><br /> Materiais focados em situações reais, como viagens, trabalho e relacionamentos.
+                Material 100% em inglês apropriado para crianças, focado em <b>interações e jogos</b> que estimulem a curiosidade e o aprendizado.
               </p>
             </div>
 
-            {/* Card 3: Ambiente Confiável */}
+            {/* Card 3: Aplicação para a Vida */}
             <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>
               <div className="w-12 h-12 bg-[#bc1a4b] rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#bc1a4b]/20">
-                <span className="text-2xl">🛋️</span>
+                <span className="text-2xl">🌍</span>
               </div>
-              <h3 className="text-xl font-bold mb-3">Ambiente Confiável</h3>
+              <h3 className="text-xl font-bold mb-3">Aplicação do Inglês para a Vida</h3>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Crio um espaço seguro e motivador, incentivando os alunos a se expressarem em inglês com confiança.
-              </p>
-            </div>
-
-          </div>
-
-          {/* Grid de Cards de Baixo */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-            
-            {/* Card 4: Dinâmica para crianças */}
-            <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>
-              <div className="w-12 h-12 bg-[#bc1a4b] rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#bc1a4b]/20">
-                🧸
-              </div>
-              <h3 className="text-xl font-bold mb-3">Dinâmica para crianças</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Uso de atividades lúdicas, músicas, histórias e jogos.<br /><br /> Ensino de forma divertida para estimular curiosidade e memorização.
-              </p>
-            </div>
-
-            {/* Card 5: Integração cultural */}
-            <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>
-              <div className="w-12 h-12 bg-[#bc1a4b] rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#bc1a4b]/20">
-                <span className="text-2xl">🌎</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Integração cultural</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Exploro aspectos culturais nas aulas para enriquecer o aprendizado.<br /><br /> Ensino inglês como ferramenta de comunicação e vivência global.
-              </p>
-            </div>
-
-            {/* Card 6: Ensino criativo e claro */}
-            <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>
-              <div className="w-12 h-12 bg-[#bc1a4b] rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#bc1a4b]/20">
-                <span className="text-2xl">💡</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Ensino criativo e claro</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Busco ensinar de forma prática e inspiradora, ajudando os alunos a desenvolverem comunicação eficaz e explorarem o mundo com confiança.
+                Seu filho aprende o idioma em experiências <b>envolventes e dinâmicas</b>. Aqui é onde o inglês deixa de ser conteúdo e passa a ser <b>ferramenta de expressão, descoberta e conexão com o mundo.</b>
               </p>
             </div>
 
@@ -312,7 +271,7 @@ function App() {
           <div className="flex justify-between items-end mb-12">
             <div className="text-left">
               <h2 className="text-4xl md:text-5xl font-extrabold">
-                Histórias de <span className="text-[#bc1a4b]">Sucesso</span>
+                Para onde a <span className="text-[#bc1a4b]">Cultural Bridge</span> pode te levar?
               </h2>
               <p className="text-gray-400 mt-4">Arraste para o lado para ver mais →</p>
             </div>
@@ -407,7 +366,7 @@ function App() {
             
             {/* CTA Final */}
             <div className="text-center md:text-left space-y-4">
-              <h3 className="text-3xl font-extrabold">Pronta para destravar <br /><span className="text-[#bc1a4b]">sua nova fase?</span></h3>
+              <h3 className="text-3xl font-extrabold">Venha para a Cultural Bridge <br /><span className="text-[#bc1a4b]">e descubra uma nova forma de <br />se conectar com o mundo.</span></h3>
               <p className="text-gray-400">Entre em contato e agende sua aula experimental.</p>
             </div>
 
@@ -416,16 +375,16 @@ function App() {
               onClick={handleWhatsAppClick}
               className="bg-[#25D366] hover:bg-[#128C7E] text-white px-10 py-5 rounded-2xl font-black text-xl flex items-center gap-3 transition-all shadow-[0_0_30px_rgba(37,211,102,0.3)] hover:scale-105"
             >
-              Falar com a Ms. Maria
+              Quero agendar uma aula!
               <span>→</span>
             </button>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center border-t border-white/5 pt-8 gap-6">
              <div className="text-xl font-bold">
-               MS. MARIA <span className="text-[#bc1a4b]">GO!</span>
+               CULTURAL BRIDGE <span className="text-[#bc1a4b]">INSTITUTE</span>
              </div>
-             <p className="text-gray-500 text-sm">© 2024 Ms. Maria Go! - Todos os direitos reservados.</p>
+             <p className="text-gray-500 text-sm">© 2024 Cultural Bridge Institute - Todos os direitos reservados.</p>
              <div className="flex gap-6 text-gray-400">
                <span className="hover:text-white cursor-pointer">Instagram</span>
                <span className="hover:text-white cursor-pointer">LinkedIn</span>
