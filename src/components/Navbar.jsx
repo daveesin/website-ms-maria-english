@@ -12,6 +12,21 @@ const Navbar = ({ handleWhatsAppClick }) => {
     { name: "Reviews", hash: "#reviews" },
   ];
 
+  const handleNavClick = (e, hash) => {
+    e.preventDefault();
+    setMenuAberto(false);
+
+    setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+        element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+        });
+        }
+    }, 100);
+};
+
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#0a0a1a]/80 backdrop-blur-md z-50 border-b border-white/5">
       <div className="flex justify-between items-center p-6 max-w-6xl mx-auto">
@@ -57,15 +72,15 @@ const Navbar = ({ handleWhatsAppClick }) => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#0a0a1a] border-b border-white/5 overflow-hidden"
+            className="md:hidden bg-[#0a0a1a] border-b border-white/5 overflow-hidden relative z-50"
           >
             <div className="flex flex-col p-6 gap-4 text-gray-300">
               {links.map((link) => (
                 <a 
                   key={link.name} 
                   href={link.hash} 
-                  onClick={() => setMenuAberto(false)}
-                  className="text-lg hover:text-[#bc1a4b]"
+                  onClick={(e) => handleNavClick(e, link.hash)}
+                  className="text-lg hover:text-[#bc1a4b] block py-2 w-full"
                 >
                   {link.name}
                 </a>
