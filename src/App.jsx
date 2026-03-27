@@ -33,6 +33,7 @@ function App() {
             <a href="#hero" className="hover:text-[#bc1a4b] transition">Início</a>
             <a href="#sobre" className="hover:text-[#bc1a4b] transition">Sobre Nós</a>
             <a href="#pilares" className="hover:text-[#bc1a4b] transition">Pilares</a>
+            <a href="#kids" className="hover:text-[#bc1a4b] transition">Kids</a>
             <a href="#reviews" className="hover:text-[#bc1a4b] transition">Reviews</a>
             <button 
               onClick={handleWhatsAppClick}
@@ -50,7 +51,7 @@ function App() {
       {/* 2. HERO SECTION COM LOGO */}
       <header id="hero" className="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-16 scroll-mt-24">
         
-        {/* Lado Esquerdo: Texto (Frase Mais Objetiva e 'Go!') */}
+        {/* Lado Esquerdo: Texto */}
         <div className="flex-1 space-y-6 text-center md:text-left">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight">
             Inglês Prático.<br />
@@ -89,7 +90,6 @@ function App() {
           </div>
         </div>
       </header>
-
 
       {/* 3. SEÇÃO SOBRE O INSTITUTO */}
       <section id="sobre" className="bg-[#0c0c1f] py-24 scroll-mt-24 border-y border-white/5">
@@ -211,7 +211,7 @@ function App() {
       </section>
       
       {/* 5. CULTURAL BRIDGE PARA CRIANÇAS */}
-      <section id="metodo" className="bg-[#0c0c1f] py-24 border-t border-white/3 scroll-mt-24">
+      <section id="kids" className="bg-[#0c0c1f] py-24 border-t border-white/3 scroll-mt-24">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-extrabold">
@@ -375,7 +375,7 @@ function App() {
               onClick={handleWhatsAppClick}
               className="bg-[#25D366] hover:bg-[#128C7E] text-white px-10 py-5 rounded-2xl font-black text-xl flex items-center gap-3 transition-all shadow-[0_0_30px_rgba(37,211,102,0.3)] hover:scale-105"
             >
-              Quero agendar uma aula!
+              Quero iniciar minha jornada!
               <span>→</span>
             </button>
           </div>
