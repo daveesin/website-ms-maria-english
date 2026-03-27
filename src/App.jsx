@@ -78,7 +78,7 @@ function App() {
 
           {/* Card Escuro para a Logo (Design "limpo" recuperado) */}
           <div className="relative w-72 h-72 flex items-center justify-center p-12 bg-[#111122] rounded-3xl border border-white/10 shadow-inner">
-            <img src={logoImg} alt="Logo Ms. Maria Go!" className="max-w-full h-auto" />
+            <img src={logoImg} alt="Logo Cultural Bridge" className="max-w-full h-auto" />
             
             {/* Pontinhos decorativos Adaptados */}
             <div className="absolute -bottom-5 -right-5 grid grid-cols-4 gap-1.5 opacity-40">
@@ -91,7 +91,7 @@ function App() {
       </header>
 
 
-      {/* 3. SEÇÃO SOBRE A PROFESSORA */}
+      {/* 3. SEÇÃO SOBRE O INSTITUTO */}
       <section id="sobre" className="bg-[#0c0c1f] py-24 scroll-mt-24 border-y border-white/5">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
           
@@ -103,7 +103,7 @@ function App() {
               
               {/*O CONTAINER DA FOTO PRINCIPAL*/}
               <div className="aspect-square bg-[#1a1a3a] flex items-center justify-center rounded-lg border border-white/10 overflow-hidden">
-                <img src={professoraImg} alt="Ms. Maria" className="w-full h-full object-cover" />
+                <img src={professoraImg} alt="" className="w-full h-full object-cover" />
               </div>
 
               {/* A BORDA INFERIOR (O MOLDE) COM AS FLECHAS */}
@@ -118,25 +118,21 @@ function App() {
           <div className="flex-1 space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-12 h-0.5 bg-[#bc1a4b]"></div>
-              <h2 className="text-4xl font-bold tracking-tight">Conheça a <span className="text-[#bc1a4b]">Ms. Maria</span></h2>
+              <h2 className="text-4xl font-bold tracking-tight">Conheça o <span className="text-[#bc1a4b]">Cultural Bridge</span></h2>
             </div>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              Sou professora de inglês com experiência em escolas de Nova York, especializada no ensino inclusivo, na utilização de estratégias baseadas na arte e no treinamento de profissionais que precisam usar o idioma em ambientes corporativos.
+              Somos um instituto educacional que se iniciou em Bufallo, Nova York e teve continuidade no Brasil. Nosso instituto conta com professores com experiências internacionais reais.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Minha abordagem é prática, eficiente e voltada para as necessidades reais de comunicação rotineira e no mundo dos negócios.
+              Somos especializados no ensino inclusivo e nossas aulas são focadas no aprendizado não somente de gramática, mas de conversação real, e projetos que possibilitam a aplicação do inglês em atividades do dia a dia.
             </p>
-            
-            <div className="pt-4 flex flex-col sm:flex-row gap-4 text-gray-400 text-sm">
-              <span className="flex items-center gap-2">✅ Certificação Internacional</span>
-              <span className="flex items-center gap-2">✅ Vivência no Exterior</span>
-            </div>
+
           </div>
         </div>
       </section>
 
-      {/* 4. QUALIFICAÇÕES & EXPERIÊNCIA */}
+      {/* 4. PILARES DA CULTURAL BRIDGE */}
       <section id="experiencia" className="py-24 max-w-6xl mx-auto px-6 scroll-mt-24">
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#bc1a4b]/5 rounded-full blur-3xl -z-10"></div>
         <div className="flex flex-col md:flex-row gap-12 items-start">
@@ -144,8 +140,8 @@ function App() {
           {/* Lado Esquerdo: Título e Elementos Decorativos */}
           <div className="md:w-1/3">
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              Qualificações <br />
-              <span className="text-[#bc1a4b]">& Experiência</span>
+              Pilares <br />
+              <span className="text-[#bc1a4b]">& Princípios</span>
             </h2>
             {/* Pontinhos decorativos do print */}
             <div className="grid grid-cols-6 gap-2 mt-8 opacity-20 w-32">
