@@ -34,6 +34,7 @@ const KidsSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 0.4, ease: "easeOut", delay: index * 0.1 }}
+                    key={item.id}
                 >
                     <div className="group bg-[#111122] p-8 rounded-3xl border border-white/5 hover:border-[#bc1a4b]/50 transition-all duration-300 relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-24 h-24 bg-[#bc1a4b]/5 rounded-full -mr-10 -mt-10 group-hover:bg-[#bc1a4b]/10 transition-colors"></div>

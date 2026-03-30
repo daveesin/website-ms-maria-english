@@ -58,4 +58,38 @@ const pilaresInfo = [
 
 
 
-export { kidsInfo, pilaresInfo }
+const reviewsInfo = [
+    {
+        id: 1,
+        name: "Ricardo Mendes",
+        role: "Gerente de Projetos",
+        review: "As aulas da Ms. Maria mudaram meu patamar profissional. Eu tinha pavor de reuniões em inglês, e hoje lidero apresentações com confiança."
+    },
+    {
+        id: 2,
+        name: "Larissa Soares",
+        role: "Arquiteta",
+        review: "O método da Cultural Bridge realmente funciona. É focado na vida real, sem aquela gramática maçante. Recomendo para qualquer adulto."
+    },
+    {
+        id: 3,
+        name: "Fabiano Silva",
+        role: "Engenheiro",
+        review: "Finalmente encontrei uma escola que entende o ritmo de quem trabalha. Flexível, prática e muito competente."
+    },
+    {
+        id: 4,
+        name: "Mariana Costa",
+        role: "Analista de Marketing",
+        review: "Minha filha adora as aulas. O material é muito visual e ela se diverte enquanto aprende. O progresso foi nítido em 3 meses."
+    },
+    {
+        id: 5,
+        name: "Lucas Lima",
+        role: "Desenvolvedor de Software",
+        review: "O diferencial é a personalização. Ela trouxe textos da minha área de TI para a aula. Sensacional!"
+    }
+]
+
+
+export { kidsInfo, pilaresInfo, reviewsInfo }

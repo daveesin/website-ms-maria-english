@@ -38,8 +38,9 @@ const PilarsSection = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.5 }}
                             transition={{ duration: 0.4, delay: index * 0.2 }}
+                            key={item.id}
                         >
-                            <div className="flex gap-4 group">
+                            <div className="flex gap-4 group" key={item.id}>
                                 <span className="text-[#bc1a4b] font-bold text-2xl mt-1 shrink-0 transition-transform group-hover:translate-x-2 italic">
                                     {">>>"}
                                 </span>
