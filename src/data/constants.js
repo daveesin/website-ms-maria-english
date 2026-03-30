@@ -92,4 +92,14 @@ const reviewsInfo = [
 ]
 
 
-export { kidsInfo, pilaresInfo, reviewsInfo }
+
+const links = [
+    { name: "Início", hash: "#hero" },
+    { name: "Sobre Nós", hash: "#sobre" },
+    { name: "Pilares", hash: "#pilares" },
+    { name: "Kids", hash: "#kids" },
+    { name: "Reviews", hash: "#reviews" }
+];
+
+
+export { kidsInfo, pilaresInfo, reviewsInfo, links }

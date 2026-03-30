@@ -1,30 +1,26 @@
+//Import de bibliotecas:
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Navbar = ({ handleWhatsAppClick }) => {
-  const [menuAberto, setMenuAberto] = useState(false);
+//Import de funções utilitárias:
+import { handleWhatsAppClick } from "../utils/whatsapp";
+import { smoothScrollTo } from "../utils/scroll";
 
-  const links = [
-    { name: "Início", hash: "#hero" },
-    { name: "Sobre Nós", hash: "#sobre" },
-    { name: "Pilares", hash: "#pilares" },
-    { name: "Kids", hash: "#kids" },
-    { name: "Reviews", hash: "#reviews" },
-  ];
+//Import de dados necessários:
+import { links } from "../data/constants";
+
+
+//Componente Navbar:
+const Navbar = () => {
+  const [menuAberto, setMenuAberto] = useState(false);
 
   const handleNavClick = (e, hash) => {
     e.preventDefault();
     setMenuAberto(false);
-
+    
     setTimeout(() => {
-        const element = document.querySelector(hash);
-        if (element) {
-        element.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-        });
-        }
-    }, 100);
+      smoothScrollTo(hash);
+    }, 300); // Espera o menu fechar para scrollar
   };
 
   return (
