@@ -1,8 +1,4 @@
-import { useState } from 'react'
-import { motion } from "framer-motion";
 import './App.css'
-
-import { handleWhatsAppClick } from './utils/whatsapp';
 
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
