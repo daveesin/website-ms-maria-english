@@ -1,10 +1,13 @@
 //Import de bibliotecas
 import { motion } from "framer-motion";
 
+//Import de funções utilitárias:
+import { handleWhatsAppClick } from "../utils/whatsapp";
+
 //Import de imagens
 import logoEscrita from "../assets/logoEscrita.png";
 
-const HeroSection = ({ handleWhatsAppClick }) => {
+const HeroSection = () => {
     return (
         <motion.div
         className="text-white text-6xl font-black leading-tight"

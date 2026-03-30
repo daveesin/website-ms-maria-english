@@ -24,7 +24,7 @@ function App() {
       <div className="pt-24"></div>
 
       {/* 2. SEÇÃO HERO */}
-      <HeroSection handleWhatsAppClick={handleWhatsAppClick} ></HeroSection>
+      <HeroSection/>
       
       {/* 3. SEÇÃO SOBRE O INSTITUTO */}
       <SobreSection/>
