@@ -25,7 +25,7 @@ const Navbar = ({ handleWhatsAppClick }) => {
         });
         }
     }, 100);
-};
+  };
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#0a0a1a]/80 backdrop-blur-md z-50 border-b border-white/5">
