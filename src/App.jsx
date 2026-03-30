@@ -39,7 +39,7 @@ function App() {
       <ReviewsSection/>
 
       {/* 7. FOOTER */}
-      <FooterSection handleWhatsAppClick={handleWhatsAppClick}></FooterSection>
+      <FooterSection/>
 
     </div>
   );
