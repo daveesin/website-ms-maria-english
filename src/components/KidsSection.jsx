@@ -6,21 +6,21 @@ const KidsSection = () => {
         <section id="kids" className="bg-[#0c0c1f] py-24 border-t border-white/3 scroll-mt-24">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <m.h2
+            <m.div
               className="..."
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.4 }}
             >
-              <h2 className="text-4xl md:text-5xl font-extrabold">
+              <h1 className="text-4xl md:text-5xl font-extrabold">
                 Cultural Bridge para <span className="text-[#bc1a4b]">Crianças</span>
-              </h2>
-
-              <h1 className="text-gray-400 mt-4 max-w-2xl mx-auto text-2xl">
-                Aqui seu filho <span className="text-[#bc1a4b]">vive o idioma</span> desde o primeiro dia!
               </h1>
-            </m.h2>
+
+              <h2 className="text-gray-400 mt-4 max-w-2xl mx-auto text-2xl">
+                Aqui seu filho <span className="text-[#bc1a4b]">vive o idioma</span> desde o primeiro dia!
+              </h2>
+            </m.div>
           </div>
             
 
