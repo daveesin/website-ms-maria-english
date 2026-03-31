@@ -43,10 +43,10 @@ const SobreSection = () => {
                 <h2 className="text-4xl font-bold tracking-tight">Conheça o <span className="text-[#bc1a4b]">Cultural Bridge</span></h2>
               </div>
               
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-100 text-lg leading-relaxed">
                 Somos um instituto educacional que se iniciou em Bufallo, Nova York e teve continuidade no Brasil. Nosso instituto conta com professores com experiências internacionais reais.
               </p>
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-100 text-lg leading-relaxed">
                 Somos especializados no ensino inclusivo e nossas aulas são focadas no aprendizado não somente de gramática, mas de conversação real, e projetos que possibilitam a aplicação do inglês em atividades do dia a dia.
               </p>
 

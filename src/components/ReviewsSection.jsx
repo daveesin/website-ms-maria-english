@@ -28,13 +28,13 @@ function ReviewsSection() {
                     {reviewsInfo.map((review) => (
                         <div className="min-w-75 md:min-w-100 snap-center bg-[#111122] p-8 rounded-3xl border border-white/10 relative" key={review.id}>
                         <span className="text-6xl text-[#bc1a4b] absolute -top-4 left-6 opacity-20 font-serif">“</span>
-                        <p className="text-gray-300 italic mb-8 relative z-10 leading-relaxed text-lg">
+                        <p className="text-gray-100 italic mb-8 relative z-10 leading-relaxed text-lg">
                             "{review.review}"
                         </p>
                         <div className="flex items-center gap-4 border-t border-white/5 pt-6">
                         <div className="w-12 h-12 bg-linear-to-br from-[#bc1a4b] to-[#5c7cfa] rounded-full"></div>
                             <div>
-                                <h4 className="font-bold text-white text-lg">{review.name}</h4>
+                                <h3 className="font-bold text-white text-lg">{review.name}</h3>
                                 <p className="text-xs text-[#bc1a4b] uppercase tracking-tighter">{review.role}</p>
                             </div>
                             </div>

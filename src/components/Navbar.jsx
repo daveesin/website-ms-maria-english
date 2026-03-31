@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
 
         {/* LINKS DESKTOP */}
-        <div className="hidden md:flex items-center gap-6 text-sm text-gray-300">
+        <div className="hidden md:flex items-center gap-6 text-sm text-gray-100">
           {links.map((link) => (
             <a key={link.name} href={link.hash} className="hover:text-[#bc1a4b] transition">
               {link.name}
@@ -72,7 +72,7 @@ const Navbar = () => {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-[#0a0a1a] border-b border-white/5 overflow-hidden relative z-50"
           >
-            <div className="flex flex-col p-6 gap-4 text-gray-300">
+            <div className="flex flex-col p-6 gap-4 text-gray-100">
               {links.map((link) => (
                 <a 
                   key={link.name} 
