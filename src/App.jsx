@@ -1,6 +1,7 @@
 import { LazyMotion, domMax } from 'framer-motion';
 
 import './App.css'
+import { useScrollToTop } from './hooks/useScrollToTop';
 
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
@@ -11,6 +12,8 @@ import ReviewsSection from "./components/ReviewsSection";
 import FooterSection from "./components/FooterSection";
 
 function App() {
+
+  useScrollToTop();
 
   return (
     <div className="min-h-screen bg-[#0a0a1a] text-white font-sans overflow-x-hidden">
