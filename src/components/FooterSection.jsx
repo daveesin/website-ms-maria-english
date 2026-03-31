@@ -7,7 +7,7 @@ import { handleWhatsAppClick } from "../utils/whatsapp";
 //Componente FooterSection:
 const FooterSection = () => {
     return (
-        <motion.span
+        <motion.footer
             className="text-white font-black leading-tight"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -25,6 +25,7 @@ const FooterSection = () => {
 
                         {/* Botão de Contato Final */}
                         <button 
+                            aria-label='Contato via WhatsApp'
                             onClick={handleWhatsAppClick}
                             className="bg-[#25D366] hover:bg-[#128C7E] text-white px-10 py-5 rounded-2xl font-black text-xl flex items-center gap-3 transition-all shadow-[0_0_30px_rgba(37,211,102,0.3)] hover:scale-105"
                         >
@@ -45,7 +46,7 @@ const FooterSection = () => {
                     </div>
                 </div>
             </footer>
-        </motion.span>
+        </motion.footer>
     )
 }
 

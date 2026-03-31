@@ -43,6 +43,7 @@ const Navbar = () => {
           <button 
             onClick={handleWhatsAppClick}
             className="bg-transparent border border-white/20 px-4 py-2 rounded-full hover:bg-white/10 transition text-white"
+            aria-label="Contato via WhatsApp"
           >
             Contato
           </button>
@@ -50,6 +51,7 @@ const Navbar = () => {
 
         {/* BOTÃO MENU HAMBÚRGUER */}
         <button 
+          aria-label="Toggle menu"
           className="md:hidden text-white p-2"
           onClick={() => setMenuAberto(!menuAberto)}
         >
@@ -82,6 +84,7 @@ const Navbar = () => {
                 </a>
               ))}
               <button 
+              aria-label="Contato via WhatsApp"
                 onClick={() => { handleWhatsAppClick(); setMenuAberto(false); }}
                 className="bg-[#bc1a4b] text-white py-3 rounded-xl font-bold"
               >

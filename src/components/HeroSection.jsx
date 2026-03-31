@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { handleWhatsAppClick } from "../utils/whatsapp";
 
 //Import de imagens
-import logoEscrita from "../assets/logoEscrita.png";
+import logoEscrita from "../assets/logoEscrita.webp";
 
 const HeroSection = () => {
     return (
@@ -30,6 +30,7 @@ const HeroSection = () => {
 
             <div className="flex justify-center md:justify-start gap-4 pt-4">
               <button 
+                aria-label="Contato via WhatsApp"
                 onClick={handleWhatsAppClick}
                 className="bg-[#bc1a4b] hover:bg-[#96153d] text-white px-10 py-4 rounded-xl font-bold text-lg shadow-xl shadow-[#bc1a4b]/20 transition-all transform hover:scale-105"
               >
@@ -46,7 +47,7 @@ const HeroSection = () => {
 
             {/* Card para a Logo */}
             <div className="relative w-95 h-95 flex items-center justify-center p-12">
-              <img src={logoEscrita} alt="Logo Cultural Bridge" className="max-w-full h-auto" />
+              <img src={logoEscrita} alt="Logo Cultural Bridge" width={1024} height={1024} className="max-w-full h-auto" />
               
               {/* Pontinhos decorativos Adaptados */}
               <div className="absolute -bottom-5 -right-5 grid grid-cols-4 gap-1.5 opacity-40">

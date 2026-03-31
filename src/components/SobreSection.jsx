@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/outline'
 
 //Import de imagens
-import fotoDuda from "../assets/fotoDuda.jpeg";
+import fotoDuda from "../assets/fotoDuda.webp";
 
 //Main component function
 const SobreSection = () => {
     return (
-        <motion.h1
+      <motion.div
         className="text-white text-6xl font-black leading-tight"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ const SobreSection = () => {
                 
                 {/*O CONTAINER DA FOTO PRINCIPAL*/}
                 <div className="aspect-square bg-[#1a1a3a] flex items-center justify-center rounded-lg border border-white/10 overflow-hidden">
-                  <img src={fotoDuda} alt="" className="w-full h-full object-cover" />
+                  <img src={fotoDuda} alt="Foto de Professora da Cultural Bridge" width={889} height={887} className="w-full h-full object-cover" />
                 </div>
 
                 {/* A BORDA INFERIOR (O MOLDE) COM AS FLECHAS */}
@@ -53,7 +53,7 @@ const SobreSection = () => {
             </div>
           </div>
         </section>
-      </motion.h1>
+      </motion.div>
     )
 }
 

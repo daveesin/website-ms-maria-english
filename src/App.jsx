@@ -22,17 +22,22 @@ function App() {
       {/* 2. SEÇÃO HERO */}
       <HeroSection/>
       
-      {/* 3. SEÇÃO SOBRE O INSTITUTO */}
-      <SobreSection/>
+      {/*Tag main para ganho de desempenho*/}
+      <main>
+        
+        {/* 3. SEÇÃO SOBRE O INSTITUTO */}
+        <SobreSection/>
 
-      {/* 4. PILARES DA CULTURAL BRIDGE */}
-      <PilarsSection/>
-      
-      {/* 5. CULTURAL BRIDGE PARA CRIANÇAS */}
-      <KidsSection/>
+        {/* 4. PILARES DA CULTURAL BRIDGE */}
+        <PilarsSection/>
+        
+        {/* 5. CULTURAL BRIDGE PARA CRIANÇAS */}
+        <KidsSection/>
 
-      {/* 6. DEPOIMENTOS */}
-      <ReviewsSection/>
+        {/* 6. DEPOIMENTOS */}
+        <ReviewsSection/>
+
+      </main>
 
       {/* 7. FOOTER */}
       <FooterSection/>

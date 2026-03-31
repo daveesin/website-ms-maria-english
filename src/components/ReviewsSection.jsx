@@ -5,11 +5,11 @@ function ReviewsSection() {
     return (
         <section id="reviews" className="py-24 bg-[#0a0a1a] relative overflow-hidden">
             <motion.div
-            className="..."
-            initial={{ opacity: 0, x: -50 }} // Começa à esquerda
-            whileInView={{ opacity: 1, x: 0 }} // Desliza para o centro
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+                className="..."
+                initial={{ opacity: 0, x: -50 }} // Começa à esquerda
+                whileInView={{ opacity: 1, x: 0 }} // Desliza para o centro
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
             >
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="flex justify-between items-end mb-12">
