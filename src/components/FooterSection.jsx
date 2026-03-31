@@ -1,5 +1,5 @@
 //Import de bibliotecas
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 //Import de funções utilitárias:
 import { handleWhatsAppClick } from "../utils/whatsapp";
@@ -7,7 +7,7 @@ import { handleWhatsAppClick } from "../utils/whatsapp";
 //Componente FooterSection:
 const FooterSection = () => {
     return (
-        <motion.footer
+        <m.div
             className="text-white font-black leading-tight"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ const FooterSection = () => {
                     </div>
                 </div>
             </footer>
-        </motion.footer>
+        </m.div>
     )
 }
 

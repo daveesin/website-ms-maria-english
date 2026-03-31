@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { reviewsInfo } from "../data/constants";
 
 function ReviewsSection() {
     return (
         <section id="reviews" className="py-24 bg-[#0a0a1a] relative overflow-hidden">
-            <motion.div
+            <m.div
                 className="..."
                 initial={{ opacity: 0, x: -50 }} // Começa à esquerda
                 whileInView={{ opacity: 1, x: 0 }} // Desliza para o centro
@@ -42,7 +42,7 @@ function ReviewsSection() {
                     ))}
                     </div>
                 </div>
-            </motion.div>
+            </m.div>
         </section>
     )
 }

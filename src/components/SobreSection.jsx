@@ -1,5 +1,5 @@
 //Import de bibliotecas
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/outline'
 
 //Import de imagens
@@ -8,7 +8,7 @@ import fotoDuda from "../assets/fotoDuda.webp";
 //Main component function
 const SobreSection = () => {
     return (
-      <motion.div
+      <m.div
         className="text-white text-6xl font-black leading-tight"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ const SobreSection = () => {
             </div>
           </div>
         </section>
-      </motion.div>
+      </m.div>
     )
 }
 

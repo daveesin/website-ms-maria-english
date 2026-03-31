@@ -66,7 +66,7 @@ const Navbar = () => {
       {/* MENU MOBILE */}
       <AnimatePresence>
         {menuAberto && (
-          <motion.div 
+          <m.div 
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
@@ -91,7 +91,7 @@ const Navbar = () => {
                 Contato
               </button>
             </div>
-          </motion.div>
+          </m.div>
         )}
       </AnimatePresence>
     </nav>

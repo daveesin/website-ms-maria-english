@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { pilaresInfo } from "../data/constants";
 
 const PilarsSection = () => {
@@ -7,7 +7,7 @@ const PilarsSection = () => {
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#bc1a4b]/5 rounded-full blur-3xl -z-10"></div>
             <div className="flex flex-col md:flex-row gap-12 items-start">
                 {/* Lado Esquerdo: Título e Elementos Decorativos */}
-                <motion.div
+                <m.div
                     className="..."
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -26,13 +26,13 @@ const PilarsSection = () => {
                         ))}
                         </div>
                     </div>
-                </motion.div>
+                </m.div>
 
                 {/* Lado Direito: Lista de Itens com as Setas */}
                 <div className="md:w-2/3 space-y-10">
                     {/* Itens gerados por um .map no meu array de itens */}
                     {pilaresInfo.map((item, index) => (
-                        <motion.div
+                        <m.div
                             className="..."
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -51,7 +51,7 @@ const PilarsSection = () => {
                                     </p>
                                 </div>
                             </div>
-                        </motion.div>
+                        </m.div>
                     ))}
                 </div>
             </div>

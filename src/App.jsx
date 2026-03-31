@@ -1,3 +1,5 @@
+import { LazyMotion, domMax } from 'framer-motion';
+
 import './App.css'
 
 import Navbar from "./components/Navbar";
@@ -12,35 +14,37 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#0a0a1a] text-white font-sans overflow-x-hidden">
-      
-      {/* 1. NAVBAR COM LINKS DE ANCORAGEM */}
-      <Navbar/>
 
-      {/* Margem superior para compensar a navbar fixa */}
-      <div className="pt-24"></div>
+      <LazyMotion features={domMax}>     
+        {/* 1. NAVBAR COM LINKS DE ANCORAGEM */}
+        <Navbar/>
 
-      {/* 2. SEÇÃO HERO */}
-      <HeroSection/>
-      
-      {/*Tag main para ganho de desempenho*/}
-      <main>
+        {/* Margem superior para compensar a navbar fixa */}
+        <div className="pt-24"></div>
+
+        {/* 2. SEÇÃO HERO */}
+        <HeroSection/>
         
-        {/* 3. SEÇÃO SOBRE O INSTITUTO */}
-        <SobreSection/>
+        {/*Tag main para ganho de desempenho*/}
+        <main>
+          
+          {/* 3. SEÇÃO SOBRE O INSTITUTO */}
+          <SobreSection/>
 
-        {/* 4. PILARES DA CULTURAL BRIDGE */}
-        <PilarsSection/>
-        
-        {/* 5. CULTURAL BRIDGE PARA CRIANÇAS */}
-        <KidsSection/>
+          {/* 4. PILARES DA CULTURAL BRIDGE */}
+          <PilarsSection/>
+          
+          {/* 5. CULTURAL BRIDGE PARA CRIANÇAS */}
+          <KidsSection/>
 
-        {/* 6. DEPOIMENTOS */}
-        <ReviewsSection/>
+          {/* 6. DEPOIMENTOS */}
+          <ReviewsSection/>
 
-      </main>
+        </main>
 
-      {/* 7. FOOTER */}
-      <FooterSection/>
+        {/* 7. FOOTER */}
+        <FooterSection/>
+      </LazyMotion> 
 
     </div>
   );

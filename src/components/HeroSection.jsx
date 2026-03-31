@@ -1,5 +1,5 @@
 //Import de bibliotecas
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 //Import de funções utilitárias:
 import { handleWhatsAppClick } from "../utils/whatsapp";
@@ -9,7 +9,7 @@ import logoEscrita from "../assets/logoEscrita.webp";
 
 const HeroSection = () => {
     return (
-        <motion.div
+        <m.div
         className="text-white text-6xl font-black leading-tight"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ const HeroSection = () => {
             </div>
           </div>
         </header>
-      </motion.div>
+      </m.div>
     )
 }
 

@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { kidsInfo } from "../data/constants";
 
 const KidsSection = () => {
@@ -6,7 +6,7 @@ const KidsSection = () => {
         <section id="kids" className="bg-[#0c0c1f] py-24 border-t border-white/3 scroll-mt-24">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <motion.h2
+            <m.h2
               className="..."
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ const KidsSection = () => {
               <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-2xl">
                 Aqui seu filho <span className="text-[#bc1a4b]">vive o idioma</span> desde o primeiro dia!
               </p>
-            </motion.h2>
+            </m.h2>
           </div>
             
 
@@ -28,7 +28,7 @@ const KidsSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Cards mapeandos por .map no array de objetos */}
             {kidsInfo.map((item, index) => (
-                <motion.div
+                <m.div
                     className="bg-[#14142a] p-8 rounded-2xl border border-white/5"
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -52,7 +52,7 @@ const KidsSection = () => {
                             }
                         </p>
                     </div>
-                </motion.div>
+                </m.div>
             ))}
           </div>
         </div>
