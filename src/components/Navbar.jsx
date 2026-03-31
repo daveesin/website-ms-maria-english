@@ -1,6 +1,6 @@
 //Import de bibliotecas:
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 
 //Import de funções utilitárias:
 import { handleWhatsAppClick } from "../utils/whatsapp";
