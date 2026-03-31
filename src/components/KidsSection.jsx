@@ -13,13 +13,13 @@ const KidsSection = () => {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.4 }}
             >
-              <p className="text-4xl md:text-5xl font-extrabold">
+              <h2 className="text-4xl md:text-5xl font-extrabold">
                 Cultural Bridge para <span className="text-[#bc1a4b]">Crianças</span>
-              </p>
+              </h2>
 
-              <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-2xl">
+              <h1 className="text-gray-400 mt-4 max-w-2xl mx-auto text-2xl">
                 Aqui seu filho <span className="text-[#bc1a4b]">vive o idioma</span> desde o primeiro dia!
-              </p>
+              </h1>
             </m.h2>
           </div>
             
