@@ -25,7 +25,9 @@ const SobreSection = () => {
                 
                 {/*O CONTAINER DA FOTO PRINCIPAL*/}
                 <div className="aspect-square bg-[#1a1a3a] flex items-center justify-center rounded-lg border border-white/10 overflow-hidden">
-                  <img src={fotoDuda} alt="Foto de Professora da Cultural Bridge" width={889} height={887} className="w-full h-full object-cover" />
+                  <img src={fotoDuda}
+                    alt="Foto de Professora da Cultural Bridge" width={500} height={500} className="w-full h-full object-cover"
+                  />
                 </div>
 
                 {/* A BORDA INFERIOR (O MOLDE) COM AS FLECHAS */}

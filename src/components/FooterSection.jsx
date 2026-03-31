@@ -27,7 +27,7 @@ const FooterSection = () => {
                         <button 
                             aria-label='Contato via WhatsApp'
                             onClick={handleWhatsAppClick}
-                            className="bg-[#1eab52] hover:bg-[#107267] text-white px-10 py-5 rounded-2xl font-black text-xl flex items-center gap-3 transition-all shadow-[0_0_30px_rgba(37,211,102,0.3)] hover:scale-105"
+                            className="bg-[#1aa34d] hover:bg-[#0b534b] text-white px-10 py-5 rounded-2xl font-black text-xl flex items-center gap-3 transition-all shadow-[0_0_30px_rgba(37,211,102,0.3)] hover:scale-105"
                         >
                             Quero iniciar minha jornada!
                             <span>→</span>

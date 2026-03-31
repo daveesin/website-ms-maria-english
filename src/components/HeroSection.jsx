@@ -9,7 +9,7 @@ import logoEscrita from "../assets/logoEscrita.webp";
 
 const HeroSection = () => {
     return (
-        <m.div
+      <m.div
         className="text-white text-6xl font-black leading-tight"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,9 @@ const HeroSection = () => {
 
             {/* Card para a Logo */}
             <div className="relative w-95 h-95 flex items-center justify-center p-12">
-              <img src={logoEscrita} alt="Logo Cultural Bridge" width={1024} height={1024} className="max-w-full h-auto" />
+              <img src={logoEscrita} 
+                alt="Logo Cultural Bridge" width={500} height={500} className="max-w-full h-auto" fetchPriority="high" 
+              />
               
               {/* Pontinhos decorativos Adaptados */}
               <div className="absolute -bottom-5 -right-5 grid grid-cols-4 gap-1.5 opacity-40">

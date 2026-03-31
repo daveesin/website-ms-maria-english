@@ -25,9 +25,12 @@ dist-ssr
 *.sw?
 
 #Imagens pessoais
-src/assets/*.jpeg
-src/assets/*.png
-src/assets/*.jpg
+*.webp
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
 
 # Firebase
 .firebase/
